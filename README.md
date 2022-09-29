@@ -1,6 +1,6 @@
 # inspots_app
 
-![GitHub](https://img.shields.io/github/license/Math2034/inspots_lgp)
+![GitHub](https://img.shields.io/github/license/Math2034/inspots_app)
 
 
 
