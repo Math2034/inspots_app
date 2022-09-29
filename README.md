@@ -1,0 +1,1 @@
+# inspots_app
