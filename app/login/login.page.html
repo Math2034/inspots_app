@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-icon routerLink="/home" name="arrow-back-outline"></ion-icon>
+    <ion-title>Log in</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="inputs">
+    <ion-label position="stacked">Faça seu Login</ion-label>
+    <ion-input type="text" placeholder="Email"></ion-input>
+    <ion-input type="password" placeholder="Senha"></ion-input>
+  </div>
+
+  <div class="lost">
+    <ion-router-link href="#" class="underline">Esqueci minha senha</ion-router-link>
+  </div>
+
+  <div>
+    <ion-button class="login" expand="block">Log in</ion-button>
+  </div>
+
+  <p>ou</p>
+
+  <div class="google">
+    <ion-button expand="block">
+      <ion-icon name="logo-google"></ion-icon>
+      Logar com Google
+    </ion-button>
+  </div>  
+
+</ion-content>

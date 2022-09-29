@@ -1,0 +1,62 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content.background {
+  --background: url(../../assets/images/fundo.png) no-repeat center/cover fixed;
+}
+
+.login {
+  display: inline-block;
+  width: 48%;
+  margin-left: 1.35%;
+  font-weight: bold;
+  border-radius: 50;
+  margin-top: 160%;
+  --background: #FF9346;
+  --background-hover: #FF9346;
+  --background-activated: #FF9346;
+  --background-focused: #FF9346;
+  --color: white;
+  --padding-top: 5px;
+  --padding-bottom: 5px;
+}
+
+.register {
+  display: inline-block;
+  width: 48%;
+  font-weight: bold;
+  border-radius: 50;
+  margin-top: 160%;
+  --background: #FC7A1E;
+  --background-hover: #FC7A1E;
+  --background-activated: #FC7A1E;
+  --background-focused: #FC7A1E;
+  --color: white;
+  --padding-top: 5px;
+  --padding-bottom: 5px;
+}
