@@ -1,0 +1,103 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-icon slot="start" color="warning" size="large" name="diamond-outline"></ion-icon>
+    <ion-searchbar search-icon="location" animated="true" placeholder=" Localização"></ion-searchbar>
+    <ion-icon slot="end" size="large" color="dark" name="person-circle-sharp"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <h3>Destaques</h3>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div>
+          <ion-card>
+            <a [routerLink]="['/maluhia']"><img alt="restaurante" src="../../assets/images/image 48.png"></a>
+          </ion-card>
+          <p style="margin-left: 20%;">Maluhia</p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+          <ion-card>
+            <img alt="restaurante" src="../../assets/images/image 13-1.png">
+          </ion-card>
+          <p style="margin-left: 30%;">Siloe</p>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div>
+          <ion-card>
+            <img alt="restaurante" src="../../assets/images/image 13-2.png">
+          </ion-card>
+          <p style="margin-left: 15%;">The Bowl</p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+          <ion-card>
+            <img alt="restaurante" src="../../assets/images/image 10.png">
+          </ion-card>
+          <p style="margin-left: 15%;">El Huerto</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-segment value="custom">
+    <ion-segment-button value="custom">
+      <ion-label>Vegano</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="segment">
+      <ion-label>Vegetariano</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="buttons">
+      <ion-label>Mistos</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div>
+          <ion-card>
+            <img alt="restaurante" src="../../assets/images/image 9.png">
+          </ion-card>
+          <p style="margin-left: 23%;">Mocrry</p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+          <ion-card>
+            <img alt="restaurante" src="../../assets/images/image 14.png">
+          </ion-card>
+          <p style="margin-left: 23%;">Falafel</p>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div>
+          <ion-card>
+            <img alt="restaurante" src="../../assets/images/image 13.png">
+          </ion-card>
+          <p style="margin-left: 11%;">Força Vital</p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+          <ion-card>
+            <img alt="restaurante" src="../../assets/images/image 49.png">
+          </ion-card>
+          <p style="text-align:center">Flor do Cerrado</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

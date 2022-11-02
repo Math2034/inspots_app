@@ -20,12 +20,21 @@ ion-input{
       margin-left: 5%;
 }
 
+ion-label, a{
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+ion-button{
+  font-weight: bold;
+}
+
 .underline {
   text-decoration: underline;
 }
 
 .inputs{
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .google{

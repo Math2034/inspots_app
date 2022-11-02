@@ -9,22 +9,22 @@
 
   <div class="inputs">
     <ion-label position="stacked">Faça seu Login</ion-label>
-    <ion-input type="text" placeholder="Email"></ion-input>
-    <ion-input type="password" placeholder="Senha"></ion-input>
+    <ion-input type="text" [(ngModel)]="login.nome" placeholder="Email" required></ion-input>
+    <ion-input type="password" [(ngModel)]="login.senha" placeholder="Senha" required></ion-input>
   </div>
 
   <div class="lost">
-    <ion-router-link href="#" class="underline">Esqueci minha senha</ion-router-link>
+    <a [routerLink]="['/forgot-password']" class="small-text">Esqueci minha senha</a>
   </div>
 
   <div>
-    <ion-button class="login" expand="block">Log in</ion-button>
+    <ion-button class="login" expand="block"  (click)="salvar()" routerLink="/restaurants">Log in</ion-button>
   </div>
 
   <p>ou</p>
 
   <div class="google">
-    <ion-button expand="block">
+    <ion-button expand="block" routerLink="/restaurants">
       <ion-icon name="logo-google"></ion-icon>
       Logar com Google
     </ion-button>

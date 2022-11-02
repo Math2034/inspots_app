@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-icon routerLink="/endereco" name="arrow-back-outline"></ion-icon>
+    <ion-title>Confirmar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="inputs">
+    <ion-label position="stacked">Enviamos um código de confirmação a você, cheque sua caixa de e-mails e copie o código aqui:</ion-label>
+    <ion-input type="text" placeholder="Digite o código aqui" required></ion-input>
+  </div>
+
+  <div>
+    <ion-button class="concluir" expand="block" routerLink="/restaurants">Concluir</ion-button>
+  </div>
+
+  <p>Não recebeu o código?</p>
+
+  <div>
+    <ion-button class="novamente" (click)="presentAlert()" expand="block"><ion-icon name="paper-plane"></ion-icon>Enviar código novamente</ion-button>
+  </div>
+
+</ion-content>

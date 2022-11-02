@@ -1,0 +1,22 @@
+.maps {
+    display: inline-block;
+    width: 48%;
+    margin-left: 1.35%;
+    font-weight: bold;
+    border-radius: 50;
+    margin-top: 10%;
+    margin-left: 25%;
+    --background: #FC7A1E;
+    --background-hover: #FC7A1E;
+    --background-activated: #FC7A1E;
+    --background-focused: #FC7A1E;
+    --color: white;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+  }
+
+  ion-card{
+    width: 70px;
+    height: 50px;
+  }
+  

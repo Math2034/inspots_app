@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-icon routerLink="/register" name="arrow-back-outline"></ion-icon>
+    <ion-title>Endereço</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="inputs">
+    <ion-label position="stacked">Adicione dados do seu endereço</ion-label>
+    <ion-input type="text" placeholder="CEP" required></ion-input>
+    <ion-input type="text" placeholder="Rua" required></ion-input>
+    <ion-input type="number" placeholder="Número" required></ion-input>
+    <ion-input type="text" placeholder="Bairro" required></ion-input>
+    <ion-input type="text" placeholder="Cidade" required></ion-input>
+  </div>
+
+  <div>
+    <ion-button class="Continue" expand="block" routerLink="/confirmacao">Continuar</ion-button>
+  </div>
+</ion-content>

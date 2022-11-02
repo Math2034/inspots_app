@@ -7,12 +7,33 @@
 
 <ion-content>
 
-  <ion-item>
-    <ion-label position="stacked">Faça seu Cadastro</ion-label>
-    <ion-input type="text" placeholder="Nome"></ion-input>
-    <ion-input type="text" placeholder="Sobrenome"></ion-input>
-    <ion-input type="text" placeholder="Email"></ion-input>
-    <ion-input type="tel" placeholder="Telefone"></ion-input>
-  </ion-item>
+  <div class="inputs-register">
+    <ion-label position="stacked">Adicione seus dados</ion-label>
+    <ion-input type="text" placeholder="Nome" required></ion-input>
+    <ion-input type="text" placeholder="Sobrenome" required></ion-input>
+    <ion-input type="text" placeholder="Email" required></ion-input>
+    <ion-input type="tel" placeholder="Telefone" required></ion-input>
+    <ion-segment value="custom">
+      <ion-segment-button value="custom">
+        <ion-label>Vendedor</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="segment">
+        <ion-label>Consumidor</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <p>ou</p>
+
+  <div class="google">
+    <ion-button expand="block" routerLink="/restaurants">
+      <ion-icon name="logo-google"></ion-icon>
+      Logar com Google
+    </ion-button>
+  </div> 
+
+  <div>
+    <ion-button class="register" expand="block" routerLink="/endereco">Continuar</ion-button>
+  </div>
 
 </ion-content>
