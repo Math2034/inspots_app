@@ -4,6 +4,9 @@
 
 Nosso APP uau
 
+![Home](https://user-images.githubusercontent.com/61693870/199620148-829e3c5a-d2e9-4535-a56d-c35a6b65ad93.png)
+
+
 ## Integrantes do grupo
 - `Rayra`: Negócios, Design, Games
 - Matheus: Front e Back-end
